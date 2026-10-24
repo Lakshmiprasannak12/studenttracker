@@ -1,0 +1,143 @@
+body {
+  background-color: #f5f6fa;
+}
+
+
+/* Main heading */
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* Enrollment form */
+
+.form-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+  max-width: 600px;
+  margin: auto;
+}
+
+
+/* Summary */
+
+.summary-box {
+  background-color: white;
+  padding: 15px;
+  margin: 25px auto 0;
+
+  border-radius: 10px;
+  text-align: center;
+
+  max-width: 600px;
+}
+
+
+.summary-box h4 {
+  margin-bottom: 5px;
+}
+
+
+.summary-box p {
+  margin: 0;
+  color: #666;
+}
+
+
+/* Filter buttons */
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+
+/* Student card */
+
+.student-card {
+  background-color: white;
+
+  width: 85%;
+  max-width: 900px;
+
+  margin: 15px auto;
+
+  padding: 18px 20px;
+
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Student information */
+
+.student-card h4 {
+  margin-bottom: 10px;
+}
+
+
+.student-card p {
+  margin-bottom: 5px;
+}
+
+
+/* Buttons */
+
+.student-buttons {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
+
+
+/* Completed student */
+
+.completed {
+  opacity: 0.6;
+}
+
+
+.completed h4,
+.completed p {
+  text-decoration: line-through;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .student-card {
+    width: 95%;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 15px;
+  }
+
+
+  .student-buttons {
+    width: 100%;
+  }
+
+
+  .student-buttons button {
+    flex: 1;
+  }
+
+}
